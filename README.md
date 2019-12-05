@@ -1,4 +1,4 @@
-# vue-demo
+# vue-moblie-template
 
 > demo
 
@@ -19,3 +19,5 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+vue 移动端项目通用模板，自用
