@@ -1,0 +1,21 @@
+// @import "./reset.less";
+// @import "./mixin.less";
+// @import "./base.less";
+
+// 定义通用样式
+.main-content {
+  .margin(15,15,15,15);
+  .padding(15,15,15,15);
+  background: #fff;
+}
+// 使用伪类元素在屏幕不满一屏时进行填充
+.main-content::before {
+  content: '';
+  position: absolute;
+  .left(15);
+  .right(15);
+  .top(15);
+  .bottom(15);
+  background-color: #fff;
+  z-index: -100;  
+}
